@@ -9,8 +9,8 @@
 
     Version 1: O'Canada, single-line melody; buzzer on pin 9 of the Arduino Uno Board.
 
-    Melody is encoded by me, Rob (Sohrab) Soltani, in April 2020 (https://rob.soltani.io)
-    Based on the score downloaded from: http://cantorion.org/music/3873/O-Canada-French-lyrics
+    Melody is encoded by me, Rob (Sohrab) Soltani, in April 2020 (https://rob.soltani.io).
+    Melody is based on the score downloaded from: http://cantorion.org/music/3873/O-Canada-French-lyrics.
 
 */
 
