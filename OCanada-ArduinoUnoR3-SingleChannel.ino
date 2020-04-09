@@ -58,7 +58,7 @@ void tone(uint16_t freq)
    // the ICR1 and OCR1A control the duty cycle and frequency of
    // waveform generation.
 
-   // After enccoding O Canada (the melody array below), I, Rob Soltani,
+   // After enccoding O Canada (the melody array below), I
    // realized it sounded better to my ears when it was one octave higher;
    // that is why freq is multiplied by two here.
 }
@@ -89,7 +89,7 @@ void setup()
 
 /*
    An array to hold the notes for O Canada
-   These are encoded by me: Rob Soltani.
+   These are encoded by me.
    Zeroes mean silence or silent notes (when the mute is called).
 */
 /*
@@ -111,7 +111,7 @@ uint16_t melody[] =
  };
 
  // An array to hold the duration of each note for O Canada
- // These are also encoded by me: Rob Soltani
+ // These are also encoded by me.
 uint8_t noteDurations[] =
 {
    8, 5, 2, 12, 4, 4, 4, 4, 4, 16,                                       // 10 - 10
@@ -123,7 +123,7 @@ uint8_t noteDurations[] =
 };
 
 // An array to hold the duration of each silent note in the melody array
-// These are  encoded by me, Rob Soltani, as well.
+// These are  encoded by me as well.
 double muteDurations[] =
 {
    0,   0.20,   0,   0,   0,     0,      0,     0,     0,     0,
@@ -136,7 +136,7 @@ double muteDurations[] =
 
 // The usual Arduino loop.
 // This was provided by Alexander Ufkes,
-// But I, Rob Soltani, modified it a bit to make the played music
+// But I modified it a bit to make the played music
 // more pleasant to my ears :)
 void loop()
 {
