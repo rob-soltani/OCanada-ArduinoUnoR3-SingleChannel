@@ -87,12 +87,19 @@ void setup()
 // The general template of the following three arrays and the loop Function
 // was provided by Alexander Ufkes
 
-// An array to hold the notes for O Canada
-// These are encoded by me: Rob Soltani.
-// Zeroes mean silence or silent notes (when the mute is called).
-// I divided the melody into what I call sentences (is that a valid music term?),
-// which to me are musical statements that have musical meaning with a start,
-// and an end. This helped me be able to listen and "debug the music" better.
+/*
+   An array to hold the notes for O Canada
+   These are encoded by me: Rob Soltani.
+   Zeroes mean silence or silent notes (when the mute is called).
+*/
+/*
+   I divided the melody into what I call sentences (is that a valid music term?),
+   which to me are musical statements that have musical meaning with a start,
+   and an end. This helped me be able to listen and debug the music better.
+   Each of these musical sentences are represented as a line of notes,
+   note durations, and mute durations respectively in the arrays melody,
+   noteDurations, and muteDurations below.
+*/
 uint16_t melody[] =
 {
     NOTE_G3,   NOTE_AS3,   NOTE_AS3,   NOTE_DS3,    NOTE_F3,    NOTE_G3,   NOTE_GS3,   NOTE_AS3,    NOTE_C4,    NOTE_F3,
