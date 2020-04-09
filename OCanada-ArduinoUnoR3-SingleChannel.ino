@@ -140,28 +140,44 @@ double muteDurations[] =
 // more pleasant to my ears :)
 void loop()
 {
-  for (int noteID = 0; noteID < 88 ; noteID++)
+
+  // Iterate through the notes of the melody
+  for (int noteID = 0; noteID < sizeof(melody)/sizeof(uint16_t *) ; noteID++)
   {
+    // Read the frequency of the current note from the melody array.
     int freq = melody[noteID];
 
+    // If the frequency is zero, assume it's a silent note and mute the buzzer.
     if (freq == 0) mute();
+    // If not, play the frequency on the buzzer.
     else tone(freq);
 
+    // Read the duration of the current note from the noteDurations array.
     uint16_t noteDuration = noteDurations[noteID]*80;
+
+    // Delay (keep playing) for the duration of the note
     delay(noteDuration);
 
+    // Mute the buzzer
     mute();
 
+    // Check if the mute duration after the current note, which is specified in
+    // the muteDurations array, is zero
     if (muteDurations[noteID] == 0)
     {
+      // If so, use the default value of 1/100 as mute duration for after the current note.
       muteDurations[noteID] = 1/100;
     }
 
+    // Read the frequency of the current mute from the muteDurations array.
     uint16_t muteDuration = noteDuration * muteDurations[noteID];
+
+    // Delay (keep silent) for the duration of the mute
     delay(muteDuration);
 
   }
 
+  // Wait one second before playing the melody again and again and again ...
   delay(1000);
 
 }
