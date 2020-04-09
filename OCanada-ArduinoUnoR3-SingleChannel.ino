@@ -90,6 +90,9 @@ void setup()
 // An array to hold the notes for O Canada
 // These are encoded by me: Rob Soltani.
 // Zeroes mean silence or silent notes (when the mute is called).
+// I divided the melody into what I call sentences (is that a valid music term?),
+// which to me are musical statements that have musical meaning with a start,
+// and an end. This helped me be able to listen and "debug the music" better.
 uint16_t melody[] =
 {
     NOTE_G3,   NOTE_AS3,   NOTE_AS3,   NOTE_DS3,    NOTE_F3,    NOTE_G3,   NOTE_GS3,   NOTE_AS3,    NOTE_C4,    NOTE_F3,
