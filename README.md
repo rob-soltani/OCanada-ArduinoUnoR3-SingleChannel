@@ -19,9 +19,13 @@ I used the Arduino Uno R3 board, made by Elegoo, one small breadboard, a passive
 ### More Details and Credits
 
 **School**: Ryerson University (https://bit.ly/3e9RSbk)
+
 **Department**: Computer Science (https://bit.ly/39ZH78m)
+
 **Course**: CCPS 310 (1J0) – Computer Organization II – Winter 2020
+
 **Instructor**: Alexander Ufkes (https://bit.ly/3e5kQJy)
+
 
 The Arduino Kit Used: **ELEGOO UNO Project Super Starter Kit** (https://amzn.to/3c6W8qz)
 
