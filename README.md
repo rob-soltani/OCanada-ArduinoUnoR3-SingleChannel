@@ -40,6 +40,4 @@ I used the Arduino Uno R3 board, made by Elegoo, one small breadboard, a passive
 
 ** I discovered these videos only after I wrote this project and its parallel project.
    As proof, you can see that great guys only encoded one single-line melody for one single passive buzzer on their Arduinos.
-   However, I created a double-line melody for two passive buzzers as well as a parallel project that you can see below:
-   GitHub: https://github.com/rob-soltani/OCanada-ArduinoUnoR3-DualChannel
-   YouTube: https://youtu.be/huY1Py63rSA
+   However, I created a double-line melody for two passive buzzers as well as a parallel project that you can see on GitHub, https://github.com/rob-soltani/OCanada-ArduinoUnoR3-DualChannel, and YouTube: https://youtu.be/huY1Py63rSA.
