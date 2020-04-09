@@ -7,7 +7,7 @@
     Instructor: Alexander Ufkes (https://www.linkedin.com/in/alex-ufkes-37154844/)
     Lab 6 - Lab 6 – AVR III: Program a piece of music for the Arduino Uno Board to play on the passive buzzer
 
-    Version 1: O'Canada, single-line melody; buzzer on pin 9 or the Arduino Uno Board.
+    Version 1: O'Canada, single-line melody; buzzer on pin 9 of the Arduino Uno Board.
 
     Melody is encoded by Rob (Sohrab) Soltani, in April 2020 (https://rob.soltani.io)
     Based on the score downloaded from: http://cantorion.org/music/3873/O-Canada-French-lyrics
