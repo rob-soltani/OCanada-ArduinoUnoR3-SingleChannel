@@ -63,7 +63,7 @@ void tone(uint16_t freq)
    // that is why freq is multiplied by two here.
 }
 
-// The mute function achive silence and silent notes when needed
+// The mute function achieves silence and silent notes when needed
 // by clearing the pin 9 output and clearing the data direction bit.
 // Function was provided by Alexander Ufkes
 void mute(void)
