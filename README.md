@@ -1,7 +1,6 @@
-# O Canada
-  For Arduino Uno R3 (single-line melody)
+# O Canada: For Arduino Uno R3 (single-line melody)
 
-O Canada; encoded to play as a single-line melody on a passive buzzer using PWM on Arduino Uno R3.
+**O Canada**; encoded to play as a single-line melody on a passive buzzer using PWM on Arduino Uno R3.
 
 ### The YouTube Video of the Project
 You can watch a video I made of this project at https://youtu.be/is9LnPHMvbw.
