@@ -169,7 +169,7 @@ void loop()
       muteDurations[noteID] = 1/100;
     }
 
-    // Read the frequency of the current mute from the muteDurations array.
+    // Read the duration of the current mute from the muteDurations array.
     uint16_t muteDuration = noteDuration * muteDurations[noteID];
 
     // Delay (keep silent) for the duration of the mute
