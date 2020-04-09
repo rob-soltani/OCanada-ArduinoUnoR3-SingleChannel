@@ -21,25 +21,22 @@ I used the Arduino Uno R3 board, made by Elegoo, one small breadboard, a passive
 
 ### More Details and Credits
 
- **School**: Ryerson University (https://bit.ly/3e9RSbk)
- **Department**: Computer Science (https://bit.ly/39ZH78m)
- **Course**: CCPS 310 (1J0) – Computer Organization II – Winter 2020
- **Instructor**: Alexander Ufkes (https://bit.ly/3e5kQJy)
+ * **School**: Ryerson University (https://bit.ly/3e9RSbk)
+ * **Department**: Computer Science (https://bit.ly/39ZH78m)
+ * **Course**: CCPS 310 (1J0) – Computer Organization II – Winter 2020
+ * **Instructor**: Alexander Ufkes (https://bit.ly/3e5kQJy)
 
+ * The Arduino Kit Used: **ELEGOO UNO Project Super Starter Kit** (https://amzn.to/3c6W8qz)
 
-The Arduino Kit Used: **ELEGOO UNO Project Super Starter Kit** (https://amzn.to/3c6W8qz)
+ * O Canada sheet music used: https://bit.ly/39RYU15
+ If I have interpreted or encoded any notes wrong, please let me know.
 
-O Canada sheet music used: https://bit.ly/39RYU15
-* If I interpreted or encoded any notes wrong, please let me know.
+ * The waving Canadian flag in the video is courtesy of BestAnimations.com: https://bit.ly/2y2tqIm
 
-The waving Canadian flag in the video is courtesy of BestAnimations.com: https://bit.ly/2y2tqIm
-
-You can reach me, Rob Soltani, at https://rob.soltani.io
-
-Other who have done this in the past**:
-Stewart C. Russell (2010):  https://youtu.be/2ewbZVwMr_I
-Brian Sullivan (2013):  https://youtu.be/QXssfJiToaw
-Kevin Power (2015):  https://youtu.be/w0dshz-sRtw
+ * Other who have done this in the past**:
+ 1. Stewart C. Russell (2010):  https://youtu.be/2ewbZVwMr_I
+ 2. Brian Sullivan (2013):  https://youtu.be/QXssfJiToaw
+ 3. Kevin Power (2015):  https://youtu.be/w0dshz-sRtw
 
 ** I discovered these videos only after I wrote this project and its parallel project.
    As proof, you can see that great guys only encoded one single-line melody for one single passive buzzer on their Arduinos.
